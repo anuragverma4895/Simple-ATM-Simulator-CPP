@@ -57,7 +57,7 @@ public:
 };
 
 int main() {
-    ATM atm(1234, 50.0);
+    ATM atm(1234, 1000.0);
     if (!atm.login()) return 0;
     int choice;
     do {
